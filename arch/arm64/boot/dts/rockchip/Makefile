@@ -154,3 +154,7 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-nanopi-r6c.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-rock-5a.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-odroid-m2.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3588s-orangepi-5.dtb
+
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3566-orangepi-3b-custom.dtb
+rk3566-orangepi-3b-custom-dtbs := rk3566-orangepi-3b-v1.1.dtb \
+	rk356x-raspi-7inch-touchscreen.dtbo
