@@ -9,6 +9,12 @@
 	compatible = "xunlong,orangepi-3b-v1.1", "xunlong,orangepi-3b", "rockchip,rk3566";
 };
 
+&sdhci {
+	cap-sd-highspeed;
+	max-frequency = <150000000>;
+	status = "okay";
+};
+
 &pmu_io_domains {
 	vccio5-supply = <&vcc_3v3>;
 };
